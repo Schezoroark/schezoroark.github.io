@@ -1,0 +1,123 @@
+/*Optimize this code, ya fool!*/
+
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    /*margin: 0px;
+    padding: 0px;*/
+    box-sizing: border-box;
+}
+
+body {
+    color: darkgreen;
+    background-color: aliceblue;
+    background-image: url(https://i.imgur.com/hBYs84e.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Grandstander', cursive;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    color: midnightblue;
+}
+
+h2 {
+    color: darkred;
+}
+
+h3 {
+    color: rgb(110, 79, 0);
+}
+
+h4 {
+    color: rgb(77, 16, 77)
+}
+
+table {
+    margin-left: 10px;
+    border-style: dotted;
+    border-color: violet;
+    padding: 10px;
+    color: purple;
+    background-color: white;
+    float: right;
+}
+
+ol {
+    color: darkred;
+}
+
+a {
+    color: rgb(110, 79, 0);
+    text-decoration: none;
+}
+
+a:hover {
+    color: purple;
+    background-color: yellow;
+}
+
+.article {
+    color: rgb(0, 70, 0);
+}
+
+.navigation {
+    width: 400px;
+    border-style: double;
+    border-width: 10px;
+    border-color: rgb(0, 70, 0);
+    margin: 24px;
+    background-color: white;
+}
+
+#synopsis {
+    color: black;
+}
+
+#logo {
+    width: 240px;
+}
+
+div {
+    background-color: snow;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+}
+
+.chains {
+    float: right;
+    margin-left: 10px;
+}
+
+.MSX {
+    float: left;
+    margin-right: 10px;
+}
+
+.minna {
+    float: left;
+    margin-right: 10px;
+}
+
+.arcade {
+    float: left;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 640px) {
+    #logo {
+        width: 100%;
+    }
+    .article {
+        color: rgb(102, 27, 0);
+    }
+    div {
+        width: initial;
+    }
+    table {
+        width: 50%
+    }
+}
