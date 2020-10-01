@@ -85,6 +85,7 @@ div {
     border-style: solid;
     border-width: 1px;
     padding: 5px;
+    font-size: 12px;
 }
 
 .chains {
@@ -111,8 +112,27 @@ div {
     #logo {
         width: 100%;
     }
+    div {
+        display: -webkit-inline-box;
+    }
     .article {
         color: rgb(102, 27, 0);
+    }
+    .chains {
+        float: none;
+        justify-content: center;
+    }
+    .MSX {
+        float: none;
+        justify-content: center;
+    }
+    .minna {
+        float: none;
+        justify-content: center;
+    }
+    .arcade {
+        float: none;
+        justify-content: center;
     }
     div {
         width: initial;
