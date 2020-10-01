@@ -88,22 +88,22 @@ div {
     font-size: 12px;
 }
 
-.chains {
+#chains {
     float: right;
     margin-left: 10px;
 }
 
-.MSX {
+#MSX {
     float: left;
     margin-right: 10px;
 }
 
-.minna {
+#minna {
     float: left;
     margin-right: 10px;
 }
 
-.arcade {
+#arcade {
     float: left;
     margin-right: 10px;
 }
@@ -118,19 +118,19 @@ div {
     .article {
         color: rgb(102, 27, 0);
     }
-    .chains {
+    #chains {
         float: none;
         justify-content: center;
     }
-    .MSX {
+    #MSX {
         float: none;
         justify-content: center;
     }
-    .minna {
+    #minna {
         float: none;
         justify-content: center;
     }
-    .arcade {
+    #arcade {
         float: none;
         justify-content: center;
     }
