@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: snow;
+}
+
+#logo {
+    width: 190px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.sidenav {
+    width: 270px;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    background: linear-gradient(to bottom, pink 20%, #ffddcc 100%);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.sidenav a {
+    padding: 32px 8px 6px 40px;
+    text-decoration: none;
+    font-size: 25px;
+    color: rebeccapurple;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: green;
+}
+
+article {
+    margin-left: 270px;
+}
+
+.main {
+    padding: 20px;
+    width: 600px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+    padding: 20px;
+    color: rebeccapurple;
+}
+
+input {
+    width: 100%;
+    padding: 14px 20px;
+}
+
+.message {
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 200px;
+}
+
+@media screen and (max-width: 800px) {
+    #logo {
+        width: 120px;
+    }
+    article {
+        margin-left: 200px;
+    }
+    .sidenav {
+        width: 200px;
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+    .main {
+        width: 100%
+    }
+}
