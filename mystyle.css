@@ -10,11 +10,6 @@ body {
     background-color: snow;
 }
 
-
-/*body.dark-theme {
-    background-color: #333;
-}*/
-
 header {
     height: auto;
 }
@@ -77,20 +72,19 @@ article div {
     width: 500px;
 }
 
-
-/*.toggle input[type='checkbox'] {
+.toggle input[type='checkbox'] {
     display: none;
 }
 
 .toggle label {
-    margin-left: 20px;
-    margin-bottom: 20px;
+    right: 20px;
+    bottom: 20px;
     background-color: #777;
     border: 2px solid #555;
     border-radius: 50px;
     cursor: pointer;
     display: inline-block;
-    position: fixed;
+    position: absolute;
     transition: all ease-in-out 0.3s;
     width: 100px;
     height: 50px;
@@ -118,7 +112,19 @@ article div {
 .toggle input[type='checkbox']:checked~label::after {
     background-color: #0054b0;
     transform: translateX(50px);
-}*/
+}
+
+
+/*Dark Theme Components*/
+
+body.dark-theme {
+    background-color: #222222;
+}
+
+body.dark-theme p,
+body.dark-theme footer {
+    color: #ddd;
+}
 
 footer {
     display: fixed;
